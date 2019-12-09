@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70976" started-at="2019-12-09T08:41:08Z" finished-at="2019-12-09T08:42:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="70976" started-at="2019-12-09T08:41:08Z" finished-at="2019-12-09T08:42:19Z">
+      <class name="com.orangehrm.qa.testcases.Adminpagetest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="setup" is-config="true" duration-ms="13413" started-at="2019-12-09T14:11:08Z" finished-at="2019-12-09T14:11:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyorganizationnamefieldtest()[pri:1, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="verifyorganizationnamefieldtest" duration-ms="159" started-at="2019-12-09T14:11:22Z" finished-at="2019-12-09T14:11:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyorganizationnamefieldtest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="teardown" is-config="true" duration-ms="863" started-at="2019-12-09T14:11:22Z" finished-at="2019-12-09T14:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="setup" is-config="true" duration-ms="10411" started-at="2019-12-09T14:11:23Z" finished-at="2019-12-09T14:11:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="savegeneralinformationtest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="savegeneralinformationtest" duration-ms="1764" started-at="2019-12-09T14:11:33Z" finished-at="2019-12-09T14:11:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testorganization]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8106640355]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[srinu_katuri@ymail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[teststreet]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[teststreet2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Bapatla]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[testnote]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Andhrapradesh]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[522101]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savegeneralinformationtest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="teardown" is-config="true" duration-ms="1151" started-at="2019-12-09T14:11:35Z" finished-at="2019-12-09T14:11:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="setup" is-config="true" duration-ms="12882" started-at="2019-12-09T14:11:36Z" finished-at="2019-12-09T14:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="savegeneralinformationtestnew(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="savegeneralinformationtestnew" duration-ms="1378" started-at="2019-12-09T14:11:49Z" data-provider="savegeneralinformation" finished-at="2019-12-09T14:11:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samplorg1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[taxid1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[reg1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8.106640355E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[adds1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[adds4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[bpt]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ap]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[522101.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savegeneralinformationtestnew -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="teardown" is-config="true" duration-ms="886" started-at="2019-12-09T14:11:51Z" finished-at="2019-12-09T14:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="setup" is-config="true" duration-ms="11400" started-at="2019-12-09T14:11:52Z" finished-at="2019-12-09T14:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="savegeneralinformationtestnew(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="savegeneralinformationtestnew" duration-ms="1486" started-at="2019-12-09T14:12:03Z" data-provider="savegeneralinformation" finished-at="2019-12-09T14:12:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sampleorg2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[taxid2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[reg2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.515424957E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[adds2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[adds5]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[clx]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ap]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[523155.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savegeneralinformationtestnew -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="teardown" is-config="true" duration-ms="914" started-at="2019-12-09T14:12:04Z" finished-at="2019-12-09T14:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="setup" is-config="true" duration-ms="11285" started-at="2019-12-09T14:12:05Z" finished-at="2019-12-09T14:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="savegeneralinformationtestnew(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="savegeneralinformationtestnew" duration-ms="1503" started-at="2019-12-09T14:12:17Z" data-provider="savegeneralinformation" finished-at="2019-12-09T14:12:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sampleorg3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[taxid3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[reg3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8.10654255E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test2@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[adds3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[adds6]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sc]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[test3]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ta]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[500084.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savegeneralinformationtestnew -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="teardown" is-config="true" duration-ms="880" started-at="2019-12-09T14:12:18Z" finished-at="2019-12-09T14:12:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.orangehrm.qa.testcases.Adminpagetest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  
+  <parameter name="organizationnanme" value="testorganization"/>
+  <parameter name="taxid" value="1234"/>
+  <parameter name="registrationnumber" value="1234"/>
+  <parameter name="phonenumber" value="8106640355"/>
+  <parameter name="emailid" value="srinu_katuri@ymail.com"/>
+  <parameter name="addressstreet1" value="teststreet"/>
+  <parameter name="addressstreet2" value="teststreet2"/>
+  <parameter name="city" value="Bapatla"/>
+  <parameter name="note" value="testnote"/>
+  <parameter name="state" value="Andhrapradesh"/>
+  <parameter name="postalcode" value="522101"/>
+  
+  <classes>
+      <!-- <class name="com.orangehrm.qa.testcases.Loginpagetest"/>-->
+      <class name="com.orangehrm.qa.testcases.Adminpagetest"/> 
+       <!-- <class name="com.orangehrm.qa.testcases.Adminpagetest"/> -->
+    </classes>
+  </test> 
+</suite>
