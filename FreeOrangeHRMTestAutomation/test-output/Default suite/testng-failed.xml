@@ -5,8 +5,8 @@
     <classes>
       <class name="com.orangehrm.qa.testcases.Adminpagetest">
         <methods>
-          <include name="verifyorganizationnamefieldtest"/>
-          <include name="teardown"/>
+          <include name="savegeneralinformationtestnew"/>
+          <include name="savegeneralinformationtest"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.orangehrm.qa.testcases.Adminpagetest -->

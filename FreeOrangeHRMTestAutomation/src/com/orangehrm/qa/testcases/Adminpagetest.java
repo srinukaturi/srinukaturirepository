@@ -113,11 +113,11 @@ public class Adminpagetest extends Testbase {
 	
 	
 	
-	@AfterMethod
+	/*@AfterMethod
 	public void teardown()
 	{
 		driver.quit();
-	}
+	}*/
 	
 	
 }

@@ -1,301 +1,369 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="3" failed="1" ignored="0" total="5" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="70976" started-at="2019-12-09T08:41:08Z" finished-at="2019-12-09T08:42:19Z">
+  <suite name="Default suite" duration-ms="19655" started-at="2019-12-09T13:50:41Z" finished-at="2019-12-09T13:51:01Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="70976" started-at="2019-12-09T08:41:08Z" finished-at="2019-12-09T08:42:19Z">
+    <test name="Default test" duration-ms="19655" started-at="2019-12-09T13:50:41Z" finished-at="2019-12-09T13:51:01Z">
       <class name="com.orangehrm.qa.testcases.Adminpagetest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="setup" is-config="true" duration-ms="13413" started-at="2019-12-09T14:11:08Z" finished-at="2019-12-09T14:11:22Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@74868d]" name="setup" is-config="true" duration-ms="13692" started-at="2019-12-09T19:20:41Z" finished-at="2019-12-09T19:20:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyorganizationnamefieldtest()[pri:1, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="verifyorganizationnamefieldtest" duration-ms="159" started-at="2019-12-09T14:11:22Z" finished-at="2019-12-09T14:11:22Z">
+        <test-method status="PASS" signature="verifyorganizationnamefieldtest()[pri:1, instance:com.orangehrm.qa.testcases.Adminpagetest@74868d]" name="verifyorganizationnamefieldtest" duration-ms="111" started-at="2019-12-09T19:20:55Z" finished-at="2019-12-09T19:20:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyorganizationnamefieldtest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="teardown" is-config="true" duration-ms="863" started-at="2019-12-09T14:11:22Z" finished-at="2019-12-09T14:11:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="setup" is-config="true" duration-ms="10411" started-at="2019-12-09T14:11:23Z" finished-at="2019-12-09T14:11:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="savegeneralinformationtest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="savegeneralinformationtest" duration-ms="1764" started-at="2019-12-09T14:11:33Z" finished-at="2019-12-09T14:11:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testorganization]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[8106640355]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[srinu_katuri@ymail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[teststreet]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[teststreet2]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Bapatla]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[testnote]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Andhrapradesh]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[522101]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="FAIL" signature="savegeneralinformationtest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.orangehrm.qa.testcases.Adminpagetest@74868d]" name="savegeneralinformationtest" duration-ms="0" started-at="2019-12-09T19:20:55Z" finished-at="2019-12-09T19:20:55Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'organizationnanme' is required by @Test on method savegeneralinformationtest but has not been marked @Optional or defined
+in C:\Users\srkaturi\AppData\Local\Temp\testng-eclipse-944581122\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'organizationnanme' is required by @Test on method savegeneralinformationtest but has not been marked @Optional or defined
+in C:\Users\srkaturi\AppData\Local\Temp\testng-eclipse-944581122\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:569)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- savegeneralinformationtest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="teardown" is-config="true" duration-ms="1151" started-at="2019-12-09T14:11:35Z" finished-at="2019-12-09T14:11:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="setup" is-config="true" duration-ms="12882" started-at="2019-12-09T14:11:36Z" finished-at="2019-12-09T14:11:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="savegeneralinformationtestnew(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="savegeneralinformationtestnew" duration-ms="1378" started-at="2019-12-09T14:11:49Z" data-provider="savegeneralinformation" finished-at="2019-12-09T14:11:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samplorg1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[taxid1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[reg1]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[8.106640355E9]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[test@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[adds1]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[adds4]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[bpt]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[test1]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[ap]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[522101.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- savegeneralinformationtestnew -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="teardown" is-config="true" duration-ms="886" started-at="2019-12-09T14:11:51Z" finished-at="2019-12-09T14:11:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="setup" is-config="true" duration-ms="11400" started-at="2019-12-09T14:11:52Z" finished-at="2019-12-09T14:12:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="savegeneralinformationtestnew(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="savegeneralinformationtestnew" duration-ms="1486" started-at="2019-12-09T14:12:03Z" data-provider="savegeneralinformation" finished-at="2019-12-09T14:12:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sampleorg2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[taxid2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[reg2]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9.515424957E9]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[test1@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[adds2]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[adds5]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[clx]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[test2]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[ap]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[523155.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- savegeneralinformationtestnew -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="teardown" is-config="true" duration-ms="914" started-at="2019-12-09T14:12:04Z" finished-at="2019-12-09T14:12:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="setup" is-config="true" duration-ms="11285" started-at="2019-12-09T14:12:05Z" finished-at="2019-12-09T14:12:17Z">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@74868d]" name="setup" is-config="true" duration-ms="5225" started-at="2019-12-09T19:20:56Z" finished-at="2019-12-09T19:21:01Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GCCPHXDT179427', ip: '3.209.194.231', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\srkaturi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8b9639d6c3cb0c925cdfbff86591a26
+*** Element info: {Using=name, value=txtUsername}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GCCPHXDT179427', ip: '3.209.194.231', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\srkaturi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8b9639d6c3cb0c925cdfbff86591a26
+*** Element info: {Using=name, value=txtUsername}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.orangehrm.qa.pages.Loginpage.login(Loginpage.java:36)
+	at com.orangehrm.qa.testcases.Adminpagetest.setup(Adminpagetest.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="savegeneralinformationtestnew(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="savegeneralinformationtestnew" duration-ms="1503" started-at="2019-12-09T14:12:17Z" data-provider="savegeneralinformation" finished-at="2019-12-09T14:12:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sampleorg3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[taxid3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[reg3]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[8.10654255E9]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[test2@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[adds3]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[adds6]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[sc]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[test3]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[ta]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[500084.0]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="savegeneralinformationtestnew(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.orangehrm.qa.testcases.Adminpagetest@74868d]" name="savegeneralinformationtestnew" duration-ms="0" started-at="2019-12-09T19:21:01Z" data-provider="savegeneralinformation" finished-at="2019-12-09T19:21:01Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GCCPHXDT179427', ip: '3.209.194.231', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\srkaturi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8b9639d6c3cb0c925cdfbff86591a26
+*** Element info: {Using=name, value=txtUsername}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GCCPHXDT179427', ip: '3.209.194.231', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\srkaturi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8b9639d6c3cb0c925cdfbff86591a26
+*** Element info: {Using=name, value=txtUsername}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.orangehrm.qa.pages.Loginpage.login(Loginpage.java:36)
+	at com.orangehrm.qa.testcases.Adminpagetest.setup(Adminpagetest.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- savegeneralinformationtestnew -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@5185bd]" name="teardown" is-config="true" duration-ms="880" started-at="2019-12-09T14:12:18Z" finished-at="2019-12-09T14:12:19Z">
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@74868d]" name="setup" is-config="true" duration-ms="0" started-at="2019-12-09T19:21:01Z" finished-at="2019-12-09T19:21:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="savegeneralinformationtestnew(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.orangehrm.qa.testcases.Adminpagetest@74868d]" name="savegeneralinformationtestnew" duration-ms="0" started-at="2019-12-09T19:21:01Z" data-provider="savegeneralinformation" finished-at="2019-12-09T19:21:01Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GCCPHXDT179427', ip: '3.209.194.231', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\srkaturi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8b9639d6c3cb0c925cdfbff86591a26
+*** Element info: {Using=name, value=txtUsername}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GCCPHXDT179427', ip: '3.209.194.231', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\srkaturi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8b9639d6c3cb0c925cdfbff86591a26
+*** Element info: {Using=name, value=txtUsername}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.orangehrm.qa.pages.Loginpage.login(Loginpage.java:36)
+	at com.orangehrm.qa.testcases.Adminpagetest.setup(Adminpagetest.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savegeneralinformationtestnew -->
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.orangehrm.qa.testcases.Adminpagetest@74868d]" name="setup" is-config="true" duration-ms="0" started-at="2019-12-09T19:21:01Z" finished-at="2019-12-09T19:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="savegeneralinformationtestnew(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.orangehrm.qa.testcases.Adminpagetest@74868d]" name="savegeneralinformationtestnew" duration-ms="0" started-at="2019-12-09T19:21:01Z" data-provider="savegeneralinformation" finished-at="2019-12-09T19:21:01Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GCCPHXDT179427', ip: '3.209.194.231', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\srkaturi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8b9639d6c3cb0c925cdfbff86591a26
+*** Element info: {Using=name, value=txtUsername}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GCCPHXDT179427', ip: '3.209.194.231', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\srkaturi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8b9639d6c3cb0c925cdfbff86591a26
+*** Element info: {Using=name, value=txtUsername}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.orangehrm.qa.pages.Loginpage.login(Loginpage.java:36)
+	at com.orangehrm.qa.testcases.Adminpagetest.setup(Adminpagetest.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savegeneralinformationtestnew -->
       </class> <!-- com.orangehrm.qa.testcases.Adminpagetest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
